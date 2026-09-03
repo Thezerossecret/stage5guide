@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>راهنمای مرحله ۵ | The Zero Secret</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f1f8e8;
+      color: #173B2A;
+      font-family: "B Nazanin", "BNazanin", "IRNazanin", Tahoma, Arial, sans-serif;
+      line-height: 2;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 40px 22px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .number {
+      font-size: 15px;
+      color: #315C43;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 8px 0;
+      color: #123524;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      color: #315C43;
+      font-size: 18px;
+    }
+
+    .card {
+      background: #173B2A;
+      border: 1px solid #173B2A;
+      border-radius: 16px;
+      padding: 30px 26px;
+      box-shadow: 0 10px 30px rgba(23, 59, 42, 0.20);
+    }
+
+    .guide {
+      display: none;
+    }
+
+    .guide.active {
+      display: block;
+    }
+
+    h2 {
+      font-size: 27px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: #f1f8e8;
+    }
+
+    p {
+      font-size: 21px;
+      margin: 18px 0;
+      color: #f1f8e8;
+    }
+
+    strong {
+      color: #ffffff;
+    }
+
+    .highlight {
+      border-right: 4px solid #f1f8e8;
+      padding: 14px 18px;
+      margin: 25px 0;
+      background: #123524;
+      border-radius: 8px;
+      color: #f1f8e8;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .highlight strong {
+      color: #ffffff;
+    }
+
+    .button-area {
+      text-align: center;
+      margin-top: 35px;
+    }
+
+    button {
+      border: 2px solid #f1f8e8;
+      background: #f1f8e8;
+      color: #173B2A;
+
+      padding: 13px 28px;
+      border-radius: 10px;
+
+      font-family: inherit;
+      font-size: 20px;
+      font-weight: bold;
+
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      background: #dcefd0;
+      transform: translateY(-1px);
+    }
+
+    .final-password {
+      text-align: center;
+      margin-top: 25px;
+      padding: 22px;
+
+      border: 2px solid #f1f8e8;
+      border-radius: 12px;
+
+      background: #123524;
+    }
+
+    .password-label {
+      font-size: 21px;
+      margin-bottom: 5px;
+      color: #dcefd0;
+    }
+
+    .password {
+      font-size: 36px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #315C43;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+
+      .container {
+        padding: 30px 16px;
+      }
+
+      .card {
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+
+      p,
+      .highlight {
+        font-size: 19px;
+      }
+
+      button {
+        font-size: 18px;
+        padding: 12px 20px;
+      }
+
+      .password {
+        font-size: 30px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+```
+<!-- سربرگ -->
+<div class="header">
+
+  <div class="number">
+    THE ZERO SECRET
+  </div>
+
+  <h1>
+    راهنمای مرحله ۵
+  </h1>
+
+  <div class="subtitle">
+    راهنمای کشف رمز
+  </div>
+
+</div>
+
+
+<!-- کادر اصلی -->
+<div class="card">
+
+
+  <!-- ========================= -->
+  <!-- راهنمای مرحله -->
+  <!-- ========================= -->
+
+  <div id="guideA" class="guide active">
+
+    <h2>
+      راهنمای مرحله ۵
+    </h2>
+
+    <p>
+      جمله‌ی رمز دارای <strong>سه کلمه</strong> است.
+    </p>
+
+    <div class="highlight">
+      کلمه اول: <strong>۶ حرفی</strong><br>
+      کلمه دوم: <strong>۵ حرفی</strong><br>
+      کلمه سوم: <strong>۳ حرفی</strong>
+    </div>
+
+    <p>
+      به ترتیب
+      <strong>قوانین درست</strong>
+      (قوانین فایروال) دقت کن.
+    </p>
+
+    <div class="button-area">
+
+      <button onclick="showPassword()">
+        هنوز نتونستم؛ رمز نهایی را نشان بده
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- ========================= -->
+  <!-- رمز نهایی -->
+  <!-- ========================= -->
+
+  <div id="finalPassword" class="guide">
+
+    <h2>
+      رمز مرحله ۵
+    </h2>
+
+    <p>
+      اگر هنوز موفق به پیدا کردن رمز نشدی،
+      پاسخ نهایی اینجاست:
+    </p>
+
+    <div class="final-password">
+
+      <div class="password-label">
+        رمز نهایی
+      </div>
+
+      <div class="password">
+        مقاومت نتیجه داد
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<!-- پاورقی -->
+<footer>
+  THE ZERO SECRET
+</footer>
+```
+
+  </div>
+
+  <script>
+
+    function showPassword() {
+
+      document.getElementById("guideA").classList.remove("active");
+
+      document.getElementById("finalPassword").classList.add("active");
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+
+    }
+
+  </script>
+
+</body>
+</html>
